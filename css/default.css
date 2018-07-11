@@ -1,0 +1,38 @@
+/* collapse earlier */
+@media (min-width: 768px) and (max-width: 1280px) {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    .navbar-header {
+        float:none;
+    }
+}
+
+#container_navbar{
+	
+}
+#container_navbar_login{
+	color:white;
+	margin-right:5px;
+	position:relative;
+	top:8px;
+}
+#container_main_body{
+	/*padding for the top navbar else it would cover top part*/
+	padding-top: 70px;
+}
+#container_body_left{
+	background-color:grey;
+}
+#container_body_middle{
+}
+#container_body_right{
+	float:right;
+	background-color:grey;
+}
